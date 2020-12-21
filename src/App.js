@@ -33,7 +33,7 @@ export default class javaScriptJeopardyRn extends Component {
     return (
       <Container>
         <StyledImage source={require('./img/jeopardy-js.png')}/>
-        <Text>Find this project on</Text>
+        <Text>Find this project on go</Text>
         <TextLink
           onPress={() => Linking.openURL('https://github.com/ladyleet/javaScriptJeopardyRn')}>
           Github
